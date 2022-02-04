@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+
+    <title>
+        Web de suscripción de Telefónica
+    </title>
+
+    <head>
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fred.es%2Fes%2Farea-prensa%2Fmultimedia%2Ftelefonica&psig=AOvVaw11Yux5xXgkGQuoAaSnFSqe&ust=1644080872815000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICywtXE5vUCFQAAAAAdAAAAABADg" width="40%" height="40%">
+
+
+    </head>
+
+    <body>
+
+        <h2>
+            Esta es la pagina de suscripción de Telefónica
+        </h2>
+
+        <p>
+            Para suscribirte a los servicios de Telefónica, rellena este breve formulario:
+        </p>
+
+
+        <!--Este formulario es solamente estético, no funciona de verdad-->
+
+        <form action="/signup" method="post">
+            <label for="fname">Nombre:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+
+            <label for="lname">Apellido:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+
+            <label for="tidentification">Tipo de identificación:</label>
+            <select name="select">
+                <option value="value1">NIF</option>
+                <option value="value2" selected="">DNI</option>
+                <option value="value3">NIE</option>
+            </select><br><br>
+            <label for="identification">Identificación:</label>
+            <input type="text" id="identification" name="identification"><br><br>
+            <button type="button">
+                <a href="formularioEnviado.html">Enviar</a> 
+            </button>
+        </form>
+
+        <button type="button">
+            <a href="index.html">Volver a la página principal</a>
+        </button>
+
+    </body>
+
+</html>
